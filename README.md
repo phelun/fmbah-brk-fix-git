@@ -8,5 +8,5 @@ Breaking Git
 
 #### Work in progress 
 4. git reset HEAD <file-name> # Rollback changes at commit or when stagedstaged 
-
+5. git tag 		      # List out existing tag of your commits. Branch specific !!
 ## Funky git customizations  
