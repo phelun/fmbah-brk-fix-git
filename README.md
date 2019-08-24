@@ -6,5 +6,7 @@ Breaking Git
 2. git config --global user.email "your_email@example.com" # Simple but very core to a workflow
 3. git config --list  # View "your profile" as the repo user. Its a per machine basis
 
+#### Work in progress 
+4. git reset HEAD <file-name> # Rollback changes at commit or when stagedstaged 
 
 ## Funky git customizations  
