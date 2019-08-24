@@ -9,4 +9,6 @@ Breaking Git
 #### Work in progress 
 4. git reset HEAD <file-name> # Rollback changes at commit or when stagedstaged 
 5. git tag 		      # List out existing tag of your commits. Branch specific !!
+6. git tag -a -m "Version 1 tag" v1.0	# Annotated tags 
+7. git tag v1.1-lw	      # Lightweight tag 
 ## Funky git customizations  
