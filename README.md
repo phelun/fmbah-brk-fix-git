@@ -11,4 +11,5 @@ Breaking Git
 5. git tag 		      # List out existing tag of your commits. Branch specific !!
 6. git tag -a -m "Version 1 tag" v1.0	# Annotated tags 
 7. git tag v1.1-lw	      # Lightweight tag 
+8. git config --global credential.helper 'cache --timeout 7200'  "Extend creds config" 
 ## Funky git customizations  
