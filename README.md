@@ -11,4 +11,5 @@ Breaking Git
 5. git tag 		      # List out existing tag of your commits. Branch specific !!
 6. git tag -a -m "Version 1 tag" v1.0	# Annotated tags 
 7. git tag v1.1-lw	      # Lightweight tag 
+8. git branch -m demo1 demo2 # rename branch
 ## Funky git customizations  
