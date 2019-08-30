@@ -14,4 +14,5 @@ Breaking Git
 8. git branch -m demo1 demo2 # rename branch
 9. git pull # fetch and merge 
 10.git fetch # get from origin, no merge
+11. git diff mater demo_branch # do ths while in master branch, gives u diff of both branches 
 ## Funky git customizations  
