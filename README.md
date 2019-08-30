@@ -15,4 +15,7 @@ Breaking Git
 9. git pull # fetch and merge 
 10.git fetch # get from origin, no merge
 11. git diff mater demo_branch # do ths while in master branch, gives u diff of both branches 
+
+
 ## Funky git customizations  
+Review custom bash prompts for git
