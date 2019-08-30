@@ -13,9 +13,9 @@ Breaking Git
 7. git tag v1.1-lw	      # Lightweight tag 
 8. git branch -m demo1 demo2 # rename branch
 9. git pull # fetch and merge 
-10.git fetch # get from origin, no merge
+10. git fetch # get from origin, no merge
 11. git diff mater demo_branch # do ths while in master branch, gives u diff of both branches 
-
+12. git log --one-line --decorate --graph --all # graphical view all branches
 
 ## Funky git customizations  
 Review custom bash prompts for git
