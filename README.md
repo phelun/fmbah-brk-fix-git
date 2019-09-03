@@ -19,3 +19,4 @@ Breaking Git
 
 ## Funky git customizations  
 Review custom bash prompts for git
+Checkout source tree(bitbucket) desktop client
