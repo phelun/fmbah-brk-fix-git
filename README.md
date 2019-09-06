@@ -16,6 +16,8 @@ Breaking Git
 10. git fetch # get from origin, no merge
 11. git diff mater demo_branch # do ths while in master branch, gives u diff of both branches 
 12. git log --one-line --decorate --graph --all # graphical view all branches
+13. git config --global credential.helper store # Set creds for specific repo ; followed byt git pull 
+14. git config --global --unset credential.helper # Unset credetials for specific git repo 
 
 ## Funky git customizations  
 Review custom bash prompts for git
