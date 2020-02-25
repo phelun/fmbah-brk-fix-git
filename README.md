@@ -38,13 +38,13 @@ after all changes
 8. Have one single comment that describes your work 
 
         ```
-        - OutPut: [detached HEAD 5b6ef70] POD-2436: Final clean up s3 module - With base public policy
+        - OutPut: [detached HEAD 5b6ef70] br_name: Final clean up s3 module - With base public policy
                     Date: Mon Feb 24 14:32:49 2020 +0000
                     6 files changed, 81 insertions(+), 9 deletions(-)
                     create mode 100644 s3_bucket/README.md
                     create mode 100644 s3_bucket/data_source.tf
                     create mode 100644 s3_bucket/provider.tf
-                    Successfully rebased and updated refs/heads/feature/POD-2436.
+                    Successfully rebased and updated refs/heads/feature/br_name.
          ```
          
 9. git log to see how things are looking 
