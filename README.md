@@ -36,6 +36,7 @@ after all changes
 6. Change the top first line in VIM to pick 
 7. Another vim opens here, and you need to comment out all crazy comments
 8. Have one single comment that describes your work 
+
         ```
         - OutPut: [detached HEAD 5b6ef70] POD-2436: Final clean up s3 module - With base public policy
                     Date: Mon Feb 24 14:32:49 2020 +0000
@@ -45,7 +46,8 @@ after all changes
                     create mode 100644 s3_bucket/provider.tf
                     Successfully rebased and updated refs/heads/feature/POD-2436.
          ```
+         
 9. git log to see how things are looking 
 10. At this poit all squash has happened locally 
 11, push squached commit to remote branch 
-   - git push origin branch_name -f 
+    - git push origin branch_name -f 
