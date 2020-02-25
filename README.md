@@ -26,16 +26,17 @@ Checkout source tree(bitbucket) desktop client
 ## Git Squash all commits 
 Steps to squash 
 after all changes 
-    1. git add -all --- as usual
-    2. git commit -am "comments" --- as usual
-    3. git push origin local_branch 
-        -     - git log --oneline 
-    4. git rebase --interactive YOUR_FIRT_COMMIT_HARSH
-        - git log --oneline 
-    5. In vim %s/pick/squash/pick/g 
-    6. Change the top first line in VIM to pick 
-    7. Another vim opens here, and you need to comment out all crazy comments
-    8. Have one single comment that describes your work 
+1. git add -all --- as usual
+2. git commit -am "comments" --- as usual
+3. git push origin local_branch 
+    - git log --oneline 
+4. git rebase --interactive YOUR_FIRT_COMMIT_HARSH
+    - git log --oneline 
+5. In vim %s/pick/squash/pick/g 
+6. Change the top first line in VIM to pick 
+7. Another vim opens here, and you need to comment out all crazy comments
+8. Have one single comment that describes your work 
+        ```
         - OutPut: [detached HEAD 5b6ef70] POD-2436: Final clean up s3 module - With base public policy
                     Date: Mon Feb 24 14:32:49 2020 +0000
                     6 files changed, 81 insertions(+), 9 deletions(-)
@@ -43,7 +44,8 @@ after all changes
                     create mode 100644 s3_bucket/data_source.tf
                     create mode 100644 s3_bucket/provider.tf
                     Successfully rebased and updated refs/heads/feature/POD-2436.
-    9. git log to see how things are looking 
-    10. At this poit all squash has happened locally 
-    11, push squached commit to remote branch 
-        - git push origin branch_name -f 
+         ```
+9. git log to see how things are looking 
+10. At this poit all squash has happened locally 
+11, push squached commit to remote branch 
+   - git push origin branch_name -f 
